@@ -1,0 +1,68 @@
+---
+title: "Your title here"
+author:
+  - Author First
+  - Author Second
+format: docx
+---
+
+```{r}
+#| label: setup
+#| echo: false
+#| message: false
+
+# Load packages
+library(tidyverse)
+```
+
+```{r}
+#| label: load-data
+#| echo: false
+#| message: false
+
+# Load the data: choose your dataset (delete the code for the other datasets)
+# Check the README link for more information about the dataset
+
+# - Verified Oldest People
+# README: https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-05-30/readme.md#verified-oldest-people
+oldest_people <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-30/centenarians.csv")
+
+# - Chocolate
+# README: https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-18#chocolate-ratings
+chocolate <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-01-18/chocolate.csv")
+
+# - Olympics
+# README: https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-27/readme.md#the-olympics
+olympics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-27/olympics.csv')
+
+# - Transit cost
+# README: https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-01-05/readme.md#transit-costs-project
+transit_cost <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-05/transit_cost.csv')
+
+# - Student to teacher ratio
+# README: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-05-07#global-student-to-teacher-ratios
+student_ratio <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-07/student_teacher_ratio.csv")
+
+```
+
+## Introduction
+
+- What is this data set about?
+
+- What questions could be answered with the dataset?
+
+## About the data
+
+- What are the variables in the dataset?
+
+## Data visualization
+
+- Please make at least one data visualization
+
+- You may make more if it helps you explain something interesting about the data
+
+## Discussion
+
+- What is the **message** in your data visualization?
+
+- What is particularly interesting about this dataset?
