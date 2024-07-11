@@ -1,8 +1,6 @@
 ---
 title: "Your title here"
-author:
-  - Author First
-  - Author Second
+author: Your Name
 format: docx
 ---
 
@@ -13,35 +11,6 @@ format: docx
 
 # Load packages
 library(tidyverse)
-```
-
-```{r}
-#| label: load-data
-#| echo: false
-#| message: false
-
-# Load the data: choose your dataset (delete the code for the other datasets)
-# Check the README link for more information about the dataset
-
-# - World's Oldest People
-# README: https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-05-30/readme.md#verified-oldest-people
-oldest_people <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-30/centenarians.csv")
-
-# - Olympics
-# README: https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-27/readme.md#the-olympics
-olympics <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-27/olympics.csv')
-
-# - Chocolate ratings
-# README: https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-18#chocolate-ratings
-chocolate <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-01-18/chocolate.csv")
-
-# - Transit cost
-# README: https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-01-05/readme.md#transit-costs-project
-transit_cost <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-05/transit_cost.csv')
-
-# - Student to teacher ratios
-# README: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-05-07#global-student-to-teacher-ratios
-student_ratio <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-07/student_teacher_ratio.csv")
 ```
 
 ## Introduction
